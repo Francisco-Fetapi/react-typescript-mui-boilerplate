@@ -16,13 +16,6 @@ export default function Layout({ children }: Props) {
     palette: {
       mode: darkMode ? "dark" : "light",
     },
-    components: {
-      MuiTextField: {
-        defaultProps: {
-          size: "small",
-        },
-      },
-    },
   });
 
   return (
