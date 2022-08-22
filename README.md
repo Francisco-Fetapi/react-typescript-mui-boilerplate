@@ -14,9 +14,11 @@ Ter que definir um **setup inicial** para um projeto é chato, ainda mais quando
 
 Como amante do [React](https://reactjs.org/) e das tecnologias que fazem parte do seu ecossistema, A maioria das aplicações que desenvolvo são criadas com [React](https://reactjs.org/) e com o meu queridinho: [Material UI](https://mui.com/pt/). Há bem pouco tempo comecei a estudar TypeScript e hoje já não me vejo começando um projeto sem utilizá-lo, com isso em mente, decidi criar um boileplate usando as tecnologias que compõe a minha base de tecnologias em boa parte dos projetos.
 
+![boilerplate](https://user-images.githubusercontent.com/74926014/185883270-02fa36f7-3b74-4157-a360-5e4ea049dd97.PNG)
+
 ## Composição
 
-Além de ter bibliotecas comumente utilizadas por mim em boa parte dos projetos, esse boilerplate também tem configurações que geralmente utilizo em boa parte dos projetos, falarei sobre mais adiante.
+Além de ter bibliotecas comumente utilizadas por mim em boa parte dos projetos, esse boilerplate também tem configurações que geralmente utilizo em boa parte deles, falarei sobre logo abaixo.
 
 ### Tecnologias
 Lista de tecnologias utilizadas pelo boilerplate:
@@ -28,6 +30,8 @@ Lista de tecnologias utilizadas pelo boilerplate:
 5. Styled-components
 6. React-icons
 7. Notistack
+
+`NOTA:` O projeto utiliza o Vite.
 
 ### Funcionalidades/Configurações pré-concebidas
 Algumas das funcionalidades e configurações que podem ser utéis para a maioria das aplicações também estão disponiveis, tais como:
