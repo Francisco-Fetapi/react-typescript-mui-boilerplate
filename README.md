@@ -12,7 +12,7 @@ Ter que definir um **setup inicial** para um projeto é chato, ainda mais quando
 
 ## Motivação
 
-Como amante do [React](https://reactjs.org/) e das tecnologias que fazem parte do seu ecossistema, A maioria das aplicações que desenvolvo são criadas com [React](https://reactjs.org/) e com o meu queridinho: [Material UI](https://mui.com/pt/). Há bem pouco tempo comecei a estudar TypeScript e hoje já não me vejo começando um projeto sem utilizá-lo, com isso em mente, decidi criar um boileplate usando as tecnologias que compõe a minha base de tecnologias em boa parte dos projetos.
+Como amante do [React](https://reactjs.org/) e das tecnologias que fazem parte do seu ecossistema, A maioria das aplicações que desenvolvo são criadas com [React](https://reactjs.org/) e com o meu queridinho: [Material UI](https://mui.com). Há bem pouco tempo comecei a estudar TypeScript e hoje já não me vejo começando um projeto sem utilizá-lo, com isso em mente, decidi criar um boileplate usando as tecnologias que compõe a minha base de tecnologias em boa parte dos projetos.
 
 ![boilerplate](https://user-images.githubusercontent.com/74926014/185883270-02fa36f7-3b74-4157-a360-5e4ea049dd97.PNG)
 
@@ -23,22 +23,22 @@ Além de ter bibliotecas comumente utilizadas por mim em boa parte dos projetos,
 ### Tecnologias
 Lista de tecnologias utilizadas pelo boilerplate:
 
-1. React
-2. TypeScript
-3. Material UI
-4. Redux (com redux-toolkit)
-5. Styled-components
-6. React-icons
-7. Notistack
+1. [React](https://reactjs.org/)
+2. [TypeScript](https://www.typescriptlang.org/)
+3. [Material UI](https://mui.com)
+4. [Redux](https://redux.js.org/) (com [redux-toolkit](https://redux-toolkit.js.org/))
+5. [Styled-components](https://www.styled-components.com/)
+6. [React-icons](https://react-icons.github.io/react-icons/)
+7. [Notistack](https://notistack.com/getting-started)
 
 `NOTA:` O projeto utiliza o Vite.
 
 ### Funcionalidades/Configurações pré-concebidas
 Algumas das funcionalidades e configurações que podem ser utéis para a maioria das aplicações também estão disponiveis, tais como:
 
-1. Configuração do Material UI
-2. Configuração do Redux via Redux Toolkit
-3. Funcionalidade de alternar o tema entre "light" e "dark"
-4. Hook useStatePersist
-5. Estratégia para exibir alertas configurado (com o notistack)
+1. Configuração do Material UI.
+2. Configuração do Redux via Redux Toolkit.
+3. Funcionalidade de alternar o tema entre "light" e "dark".
+4. Hook useStatePersist.
+5. Estratégia para exibir alertas configurado. (com o notistack)
 
