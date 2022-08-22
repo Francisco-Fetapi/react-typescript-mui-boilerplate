@@ -31,7 +31,7 @@ Lista de tecnologias utilizadas pelo boilerplate:
 6. [React-icons](https://react-icons.github.io/react-icons/)
 7. [Notistack](https://notistack.com/getting-started)
 
-`NOTA:` O projeto utiliza o Vite.
+`NOTA:` O projeto utiliza o [Vite](https://vitejs.dev/).
 
 ### Funcionalidades/Configurações pré-concebidas
 Algumas das funcionalidades e configurações que podem ser utéis para a maioria das aplicações também estão disponiveis, tais como:
