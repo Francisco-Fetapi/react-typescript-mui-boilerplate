@@ -35,4 +35,6 @@ Algumas das funcionalidades e configurações que podem ser utéis para a maiori
 1. Configuração do Material UI
 2. Configuração do Redux via Redux Toolkit
 3. Funcionalidade de alternar o tema entre "light" e "dark"
+4. Hook useStatePersist
+5. Estratégia para exibir alertas configurado (com o notistack)
 
