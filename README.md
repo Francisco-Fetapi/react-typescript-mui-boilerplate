@@ -36,9 +36,9 @@ Lista de tecnologias utilizadas pelo boilerplate:
 ### Funcionalidades/Configurações pré-concebidas
 Algumas das funcionalidades e configurações que podem ser utéis para a maioria das aplicações também estão disponiveis, tais como:
 
-1. Configuração do Material UI.
-2. Configuração do Redux via Redux Toolkit.
+1. Configuração do [Material UI](https://mui.com).
+2. Configuração do [redux-toolkit](https://redux-toolkit.js.org/) via [redux-toolkit](https://redux-toolkit.js.org/).
 3. Funcionalidade de alternar o tema entre "light" e "dark".
 4. Hook useStatePersist.
-5. Estratégia para exibir alertas configurado. (com o notistack)
+5. Estratégia para exibir alertas configurado. (com o [notistack](https://notistack.com/getting-started))
 
