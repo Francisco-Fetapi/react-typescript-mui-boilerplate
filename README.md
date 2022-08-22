@@ -8,11 +8,11 @@
 <a href="https://github.com/Francisco-Fetapi/react-typescript-mui-boilerplate"><img alt="GitHub license" src="https://img.shields.io/github/license/Francisco-Fetapi/react-typescript-mui-boilerplate?style=plastic"></a>
 </p>
 
-Ter que definir um **setup inicial** para um projeto é chato, ainda mais quando é o mesmo setup sendo definido para cada projeto: _Sempre as mesmas tecnologias_, _a mesma extrutura de pastas_, _os mesmos `helpers`_ e por ai vai. Foi para contornar essa _"chatice"_ que eu decidi criar esse template, criei-o pensando em mim, mas decidi torná-lo `open-source` pra caso alguém queira reutilizá-lo.
+Ter que definir um **setup inicial** para um projeto é chato, ainda mais quando é o mesmo setup sendo definido para cada projeto: _Sempre as mesmas tecnologias_, _a mesma extrutura de pastas_, _os mesmos `helpers`_ e por ai vai. Foi para contornar essa _"chatice"_ que eu decidi criar esse boilerplate, criei-o pensando em mim, mas decidi torná-lo `open-source` pra caso alguém queira reutilizá-lo.
 
 ## Motivação
 
-Como amante do [React](https://reactjs.org/) e das tecnologias que fazem parte do seu ecossistema, A maioria das aplicações que desenvolvo são criadas com [React](https://reactjs.org/) e com o meu queridinho: [Material UI](https://mui.com). Há bem pouco tempo comecei a estudar TypeScript e hoje já não me vejo começando um projeto sem utilizá-lo, com isso em mente, decidi criar um boileplate usando as tecnologias que compõe a minha base de tecnologias em boa parte dos projetos.
+Como amante do [React](https://reactjs.org/) e das tecnologias que fazem parte do seu ecossistema, a maioria das aplicações que desenvolvo são criadas com [React](https://reactjs.org/) e com o meu queridinho: [Material UI](https://mui.com). Há bem pouco tempo comecei a estudar [TypeScript](https://www.typescriptlang.org/) e hoje já não me vejo começando um projeto sem utilizá-lo, com isso em mente, decidi criar um boileplate usando as tecnologias que compõe a minha base de tecnologias em boa parte dos projetos.
 
 ![boilerplate](https://user-images.githubusercontent.com/74926014/185883270-02fa36f7-3b74-4157-a360-5e4ea049dd97.PNG)
 
@@ -42,3 +42,7 @@ Algumas das funcionalidades e configurações que podem ser utéis para a maiori
 4. Hook useStatePersist.
 5. Estratégia para exibir alertas configurado. (com o [notistack](https://notistack.com/getting-started))
 
+<div>
+    <br />
+  <p align="center">Feito com ❤️ by <a href="https://github.com/Francisco-Fetapi">Francisco Fetapi</a> </p>
+ </div>
