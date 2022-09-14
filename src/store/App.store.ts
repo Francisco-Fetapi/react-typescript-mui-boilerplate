@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { configureStore } from "@reduxjs/toolkit";
 import useStatePersist from "../hooks/useStatePersist";
 
-const THEME_KEY_IN_LOCALSTORAGE = "darkMode";
+export const THEME_KEY_IN_LOCALSTORAGE = "darkMode";
 
 export interface IDarkMode {
   darkMode: boolean;
@@ -13,25 +13,54 @@ const initialState: App = {
   darkMode: useStatePersist<boolean>(THEME_KEY_IN_LOCALSTORAGE).get(),
 };
 
-export const appSlice = createSlice({
-  name: "app",
-  initialState,
-  reducers: {
-    toggleTheme(state) {
-      state.darkMode = !state.darkMode;
-      const { save } = useStatePersist<boolean>(THEME_KEY_IN_LOCALSTORAGE);
-      save(state.darkMode);
+function stateReseted(initialState: App): App {
+  const darkMode = useStatePersist<boolean>(THEME_KEY_IN_LOCALSTORAGE).get();
+  return { ...initialState, darkMode };
+}
+
+export function sliceCreator(initialState: App) {
+  return createSlice({
+    name: "app",
+    initialState,
+    reducers: {
+      toggleTheme(state) {
+        state.darkMode = !state.darkMode;
+        const { save } = useStatePersist<boolean>(THEME_KEY_IN_LOCALSTORAGE);
+        save(state.darkMode);
+      },
+      resetAllState(state, action: PayloadAction<boolean | undefined>) {
+        if (action.payload) {
+          return Object.assign(state, initialState);
+        }
+        Object.assign(state, stateReseted(initialState));
+      },
     },
-  },
-});
+  });
+}
 
-const store = configureStore({
+export const app = sliceCreator(initialState);
+
+export const middlewares = {
+  serializableCheck: {
+    // Ignore these paths in the state
+    ignoredPaths: [
+      "app.phraseTraining",
+      "app.backdrop.primaryButton.handleClick",
+      "app.backdrop.onMount",
+      "payload.primaryButton.handleClick",
+      "app.levels",
+    ],
+  },
+};
+export const store = configureStore({
   reducer: {
-    app: appSlice.reducer,
+    app: app.reducer,
   },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware(middlewares),
 });
 
-export const {} = appSlice.actions;
+export const { toggleTheme, resetAllState } = app.actions;
+
 export default store;
 
 export type RootState = ReturnType<typeof store.getState>;
