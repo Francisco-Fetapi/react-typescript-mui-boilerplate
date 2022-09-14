@@ -43,13 +43,7 @@ export const app = sliceCreator(initialState);
 export const middlewares = {
   serializableCheck: {
     // Ignore these paths in the state
-    ignoredPaths: [
-      "app.phraseTraining",
-      "app.backdrop.primaryButton.handleClick",
-      "app.backdrop.onMount",
-      "payload.primaryButton.handleClick",
-      "app.levels",
-    ],
+    ignoredPaths: [],
   },
 };
 export const store = configureStore({
